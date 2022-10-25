@@ -4,7 +4,7 @@
     font-size: 80px;
 }
 
-p {
+.tekst {
     color: rgb(50, 46, 54);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -18,4 +18,28 @@ img {
 }
 img:hover {
     box-shadow: 0 0 4px 3px rgb(50, 46, 54, 0.5);
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table.keskel {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 10px;
+}
+
+#päis {
+    background-color: silver;
+    font-weight: bold;
 }
