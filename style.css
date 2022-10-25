@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(215, 243, 247);
+}
+
 .pealkiri {
     color: darkgray;
     font-family: 'Times New Roman', Times, serif;
