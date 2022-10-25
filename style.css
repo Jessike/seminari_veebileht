@@ -6,6 +6,15 @@ body {
     color: darkgray;
     font-family: 'Times New Roman', Times, serif;
     font-size: 80px;
+
+    width: 300px;
+    height: 100px;
+    background:rgb(53, 50, 56);
+    transition: width 2s;
+}
+
+.pealkiri:hover {
+    width: 600px;
 }
 
 .tekst {
@@ -49,7 +58,20 @@ th, td {
     font-weight: bold;
 }
 
-.vasak {
+.tulpadeks {
     column-count: 2;
     column-gap: 30px;
 }
+
+.button {
+    background: rgb(53, 50, 56);
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+  }
