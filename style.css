@@ -3,3 +3,10 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 80px;
 }
+
+p {
+    color: rgb(50, 46, 54);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
