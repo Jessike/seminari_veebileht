@@ -19,6 +19,7 @@ img {
     border: 3px solid black;
     border-radius: 3px;
     padding: 2px;
+    width: 500px;
 }
 img:hover {
     box-shadow: 0 0 4px 3px rgb(50, 46, 54, 0.5);
@@ -46,4 +47,9 @@ th, td {
 #päis {
     background-color: silver;
     font-weight: bold;
+}
+
+.vasak {
+    column-count: 2;
+    column-gap: 30px;
 }
